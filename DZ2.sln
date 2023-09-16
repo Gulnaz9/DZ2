@@ -5,6 +5,10 @@ VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tumakov2", "Tumakov2\Tumakov2.csproj", "{FD01EC32-E249-4A4F-B9C2-60148BB2A964}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tumakov3", "Tumakov3\Tumakov3.csproj", "{CAA75C69-385F-440F-A0D6-BD03A941560D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserTasks", "UserTasks\UserTasks.csproj", "{747FAFC1-0486-4671-9D90-6304D6FF0F83}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{FD01EC32-E249-4A4F-B9C2-60148BB2A964}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD01EC32-E249-4A4F-B9C2-60148BB2A964}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD01EC32-E249-4A4F-B9C2-60148BB2A964}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAA75C69-385F-440F-A0D6-BD03A941560D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAA75C69-385F-440F-A0D6-BD03A941560D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAA75C69-385F-440F-A0D6-BD03A941560D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAA75C69-385F-440F-A0D6-BD03A941560D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{747FAFC1-0486-4671-9D90-6304D6FF0F83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{747FAFC1-0486-4671-9D90-6304D6FF0F83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{747FAFC1-0486-4671-9D90-6304D6FF0F83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{747FAFC1-0486-4671-9D90-6304D6FF0F83}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
