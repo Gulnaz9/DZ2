@@ -13,9 +13,11 @@ namespace Tumakov2Upr2
             Console.WriteLine("Введите два целых числа, после каждого нажмите <Enter>"); 
             double a = int.Parse(Console.ReadLine());
             double b = int.Parse(Console.ReadLine());
-            double q = a / b;
-            if (b == 0) { Console.WriteLine("т.к. мы ищем частное, второе число не может равняться нулю"); }
-            else { Console.WriteLine("Частное равно " + q); }
+            if (b == 0)
+            { Console.WriteLine("т.к. мы ищем частное, второе число не может равняться нулю"); }
+            else { double q = a / b; 
+                Console.WriteLine("Частное равно " + q); 
+            }
             
         }
     }

@@ -22,8 +22,9 @@ namespace UserTask6
             string request = Console.ReadLine();
             Console.Write("Нет");
             Thread.Sleep(5000);
-            Console.WriteLine("...но могу показать...");
             Console.BackgroundColor = ConsoleColor.Magenta;
+            Console.WriteLine("...но могу показать...");
+            Console.BackgroundColor = ConsoleColor.Black;
         }
     }
 }

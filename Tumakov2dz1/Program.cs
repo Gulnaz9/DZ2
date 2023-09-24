@@ -10,11 +10,21 @@ namespace Tumakov2dz1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Напишите любую русскую букву"); 
+            Console.WriteLine("Напишите любую букву"); 
             var letter = Console.ReadKey().KeyChar;
-            var letter1 = letter == 'я' ? 'а' : (char)(letter + 1);
-                Console.Write(letter1);
-            //не смогла поставить условие для разных алфавитов((
+            if(letter=='z')
+            {
+                Console.WriteLine('a');
+            }
+            else if (letter == 'я')
+            { 
+                Console.WriteLine('а');
+            }
+            else
+            {
+                Console.WriteLine((char)(letter + 1));
+            }
+            
            
 
         }

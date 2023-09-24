@@ -8,8 +8,17 @@ namespace UserTask2
 {
     internal class Program
     {
+        struct Student
+        {
+
+            public string name;
+
+        }
         static void Main(string[] args)
         {
+            Student student;
+            student.name = "dfghj";
+
             Console.Write("Ваше имя - ");
             string name = Console.ReadLine();
             Console.Write("Ваш город - ");

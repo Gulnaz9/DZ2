@@ -24,7 +24,7 @@ namespace Tumakov2dz2
             {
                 Console.WriteLine("Нет корней ");
             }
-            if (D > 0)
+            else if (D > 0)
             {
                 double x1 = (-b + Math.Sqrt(D)) / (2 * a); //Sqrt = под корнем 
                 double x2 = (-b - Math.Sqrt(D)) / (2 * a);
@@ -32,7 +32,7 @@ namespace Tumakov2dz2
                 Console.WriteLine("Корни уравнения: " + "х1=" + x1 + ", х2=" + x2);
 
             }
-            if (D == 0)
+            else
             {
                 double x = -b / (2 * a);
                 Console.WriteLine("Корень уравнения: х=" + x);

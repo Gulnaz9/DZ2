@@ -14,6 +14,8 @@ namespace Tumakov2
             Console.WriteLine("Как вас зовут?");
             string nanme = Console.ReadLine();
             Console.WriteLine("Здравствуйте, " +  nanme);
+
+            
         }
     }
 }
